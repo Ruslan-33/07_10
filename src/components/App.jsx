@@ -8,16 +8,16 @@ import Product from './Product'
   export default function App() {
     return (
       <div>
-        <h1>Best selling</h1>
+        <h1>Best technology</h1>
 
         <Product 
-          name="Tacos With Lime"
-          imgUrl="https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?dpr=2&h=480&w=640"
+          name="Effect"
+          imgUrl="https://slp-statics.astockcdn.net/static_assets/staging/22spring/free/storytelling-blade/Card1_332683247.jpg?width=580&format=webp"
           price={10.99}
         />
         <Product 
-          name="Fries and Burger"
-          imgUrl="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?dpr=2&h=480&w=640"
+          name="Chime"
+          imgUrl="https://as1.ftcdn.net/v2/jpg/00/34/83/18/1000_F_34831856_yqmKQfXMH5LNOOdLwrtmKAYC8rDstmji.jpg"
           price={14.29}
         />
       </div>
